@@ -1,8 +1,12 @@
 # Karel-J-Robot-Projects
-BHS Karel J Robot Code For Projects #01-#12
+BHS Karel J Robot Code For Projects #01-#12 (UPDATING RN)
+
 Here is my code from my 2024 class work at Barrington High School for Karel J Robot!
-The Grade I got is next to the name of the project/Class.
+This is a Java class where you can learn how to code in Java. This code in this repo can help you if you are stuck! 
+
 # Working Projects 
+
+The Grade I got is next to the name of the project/Class.
 
 - MyFirstRobot = 100%
 - WalkAroundTheBlock = 100%
@@ -16,3 +20,9 @@ The Grade I got is next to the name of the project/Class.
 - DiamondHarvester + DiaHBot + MyBot = 100%
 - Project + PairBot = 100% (STAR WORLD IS IN WORLDS FOLDER!)
 - TellTime + TellTimeBot = 71% (NOT DONE YET)
+
+# How To Use My Code
+First, you should download ALL the files from this repo. To do this click on the download ZIP at the top of the page open the Karel J Robot folder that you made at the very start of the class and extract all the files in the zip folder into "Karel J Robot". This assumes that you are on a MacBook, if you are not this should still work, if something is broken or is not working make an issue and I will try to fix it! 
+# Only Use One Project
+- This is not recommended because it can break very easily, but if you wish to you can. So if you just want the code for ThousandMiles, you will need to download 3 files. (ThousandMiles.class, ThousandMiles.ctxt, ThousandMiles.java) Once you have downloaded them drag and drop them into the Karel J Robot folder, if it asks you to replace files replace them. 
+- Then you will probably want the MyBot code because that is where all the extra code is, so you can do the same step above and drag and drop the 3 files in. If you have any projects that are linked to the original MyBot they might break so be careful!
