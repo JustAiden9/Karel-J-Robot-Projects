@@ -1,7 +1,7 @@
 # Karel-J-Robot-Projects
 BHS Karel J Robot Code For Projects #01-#12 (UPDATING Right Now!)
 
-Here is my code from my 2024 class work at Barrington High School for Karel J Robot!
+Here is my code from my 2024 class work at Barrington High School for Karel J Robot / Computer Programing 2!
 This is a Java class where you can learn how to code in Java. This code in this repo can help you if you are stuck! 
 
 # Working Projects 
