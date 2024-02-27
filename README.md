@@ -19,7 +19,7 @@ The Grade I got is next to the name of the project/Class.
 - Pinsetter + MyBot = 100%
 - DiamondHarvester + DiaHBot + MyBot = 100%
 - Project + PairBot + MyBot = 100% (STAR WORLD IS IN WORLDS FOLDER!)
-- TellTime + TellTimeBot + MyBot = 100% (NOT DONE YET)
+- TellTime + TellTimeBot + MyBot = 100%
 
 # How To Use My Code
 First, you should download ALL the files from this repo. To do this click on the download ZIP at the top of the page open the Karel J Robot folder that you made at the very start of the class and extract all the files in the zip folder into "Karel J Robot". This assumes that you are on a MacBook, if you are not this should still work, if something is broken or is not working make an issue and I will try to fix it! 
