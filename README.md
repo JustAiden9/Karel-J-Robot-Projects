@@ -22,7 +22,7 @@ The Grade I got is next to the name of the project/Class.
 - TellTime + TellTimeBot + MyBot = 100%
 
 # How To Use My Code
-First, you should download ALL the files from this repo. To do this click on the download ZIP at the top of the page open the Karel J Robot folder that you made at the very start of the class and extract all the files in the zip folder into "Karel J Robot". This assumes that you are on a MacBook, if you are not this should still work, if something is broken or is not working make an issue and I will try to fix it! 
+First, you should download ALL the files from this repo (Now in the "Main and World Files" folder!). To do this click on the download ZIP at the top of the page open the Karel J Robot folder that you made at the very start of the class and extract all the files in the zip folder into "Karel J Robot". This assumes that you are on a MacBook, if you are not this should still work, if something is broken or is not working make an issue and I will try to fix it! 
 
 # Where Do I Put The Downloaded Code?
 - If you are on a Mac and take this class a Barrington High School there should be a folder on your Desktop called CompProg2 inside of that there should be a folder called Karel J Robot. Thats it!
