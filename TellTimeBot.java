@@ -120,19 +120,121 @@ public class TellTimeBot extends MyBot
     public void six()
     {
         movePutR2();
+        turnLeft();
+        movePutR3();
+        turnLeft();
+        movePutR6();
+        turnRight();
+        movePutR3();
+        turnAround();
+        move2();
+        movePut();
+        turnAround();
+        move3();
+        turnRight();
+        movePut();
+        move3();
+        turnRight();
+        move4();
+        turnLeft();
+    }
+    public void seven()
+    {
+        sevenHelpR();
+        turnLeft();
+        PutMove();
+        putBeeper();
+        turnLeft();
+        movePutR3();
+        turnLeft();
+        move4();
+        turnLeft();
+        move4();
+    }
+    public void zero()
+    {
+        movePutR2();
+        turnLeft();
+        movePutR2();
+        turnLeft();
+        movePutR6();
+        turnLeft();
+        movePutR6();
+        move();
+        turnLeft();
+        move4();
+    }
+    public void eight()
+    {
+        movePutR2();
+        turnLeft();
+        movePutR2();
+        turnLeft();
+        movePutR6();
+        turnLeft();
+        movePutR6();
+        turnAround();
+        move();
+        turnRight();
+        movePutR3();
+        move();
+        turnRight();
+        move2();
+        turnLeft();
+        move();
+    }
+    public void nine()
+    {
+        movePutR2();
+        turnLeft();
+        movePutR2();
+        turnLeft();
+        movePutR6();
+        turnLeft();
+        movePutR3();
+        turnLeft();
+        movePutR6();
+        turnRight();
+        move2();
+        turnLeft();
+        move();
+    }
+    public void mid()
+    {
+        move();
+        turnLeft();
+        move();
+        putBeeper();
+        move2();
+        putBeeper();
+        turnAround();
+        move3();
+        turnLeft();
+        move();
+    }
+    public void sevenHelp()
+    {
+        move();
+        turnLeft();
+        putBeeper();
+        move();
+        turnRight();
     }
     public void PutMove()
     {
         putBeeper();
         move();
-        turnLeft();
-        movePutR3();
     }
     public void back33()
     {
         turnAround();
         move4();
         turnRight();
+    }
+    public void sevenHelpR() {
+        for (int i = 0; i < 3; i++) {
+            sevenHelp();
+        }
     }
     public void movePutR() {
         for (int i = 0; i < 5; i++) {
