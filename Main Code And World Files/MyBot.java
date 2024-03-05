@@ -23,6 +23,11 @@ public class MyBot extends UrRobot
         turnLeft();
         turnLeft();
     }
+    public void turnRightMove()
+    {
+        turnRight();
+        move();
+    }
     public void movePut()
     {
         move();
@@ -117,6 +122,21 @@ public class MyBot extends UrRobot
         for (int i = 0; i < 1000; i++) {
             moveMile();
         }
+    }
+    public void turnRightMove2() {
+        for (int i = 0; i < 2; i++) {
+            turnRightMove();
+        }
+    }
+    public void putLeft()
+    {
+        putBeeper();
+        turnLeft();
+    }
+    public void leftMove4()
+    {
+        turnLeft();
+        move4();
     }
     public void lside()
         {
