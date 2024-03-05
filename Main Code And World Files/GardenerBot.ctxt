@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GardenerBot
+comment1.params=
+comment1.target=void\ goToStart()
+comment2.params=
+comment2.target=void\ plantQuadrant()
+comment3.params=
+comment3.target=void\ goHome()
+numComments=4
