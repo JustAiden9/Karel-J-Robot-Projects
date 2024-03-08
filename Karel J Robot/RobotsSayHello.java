@@ -9,7 +9,7 @@ import java.awt.*;
 public class RobotsSayHello implements Directions
 {
     private static String world = "Blank";
-    private static int delay = 1;
+    private static int delay = 15;
     public static void main(String args[])
     {
         Robot1 a = new Robot1(3, 2, North, infinity, Color.red);
