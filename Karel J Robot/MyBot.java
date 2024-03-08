@@ -128,6 +128,17 @@ public class MyBot extends UrRobot
             turnRightMove();
         }
     }
+    public void movePut5() {
+        for (int i = 0; i < 5; i++) {
+            movePut();
+        }
+    }
+    public void movePutMove3() {
+        for (int i = 0; i < 3; i++) {
+            movePut();
+            move();
+        }
+    }
     public void putLeft()
     {
         putBeeper();
@@ -219,4 +230,5 @@ public class MyBot extends UrRobot
         move();
         turnRight();
     }
+
 }

@@ -8,7 +8,7 @@
 import kareltherobot.*;
 import java.awt.Color;
 
-public class Project implements Directions
+public class PairProject implements Directions
 {
     private static String world = "Star1";
     private static int delay = 5;

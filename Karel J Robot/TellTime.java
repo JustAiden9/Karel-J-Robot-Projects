@@ -17,9 +17,12 @@ public static void main(String args[])
         TellTimeBot a = new TellTimeBot (3, 3, North, 200);
         a.start();
         a.one();
-        a.zero();
+        a.one();
         a.mid();
-        a.five();
+        a.one();
+        a.one();
+        a.mid();
+        a.six();
         a.nine();
         a.turnOff();
     } 
