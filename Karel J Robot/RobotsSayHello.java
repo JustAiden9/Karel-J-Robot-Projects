@@ -1,8 +1,8 @@
 /**
  * This RobotSaysHello class represents . . .
  *
- * @author  (your name)
- * @version (todays date)
+ * @author  
+ * @version 
  */
 import kareltherobot.*;
 import java.awt.*;
