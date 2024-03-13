@@ -6,11 +6,12 @@
  * @version (todays date)
  */
 import kareltherobot.*;
+import java.awt.Color;
 public class TellTimeBot extends MyBot
 { 
-    public TellTimeBot(int s, int a, Direction d, int b)
+    public TellTimeBot(int s, int a, Direction d, int b, Color c)
     {
-        super(s,a,d,b);
+        super(s,a,d,b,c);
     }
     public void start()
     {
@@ -40,7 +41,6 @@ public class TellTimeBot extends MyBot
         turnRight();
         twoHelp();
         movePut();
-        move();
         turnLeft();
         movePut();
         movePut();

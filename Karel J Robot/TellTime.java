@@ -14,7 +14,7 @@ public class TellTime implements Directions
     private static int delay = 1;
 public static void main(String args[])
     {
-        TellTimeBot a = new TellTimeBot (3, 3, North, 200);
+        TellTimeBot a = new TellTimeBot (3, 3, North, 200, Color.blue);
         a.start();
         a.one();
         a.one();

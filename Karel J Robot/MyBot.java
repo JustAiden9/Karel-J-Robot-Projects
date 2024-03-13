@@ -230,5 +230,14 @@ public class MyBot extends UrRobot
         move();
         turnRight();
     }
-
+    public void putMove()
+    {
+        putBeeper();
+        move();
+    }
+    public void putMove3() {
+        for (int i = 0; i < 3; i++) {
+            putMove();
+        }
+    }
 }
