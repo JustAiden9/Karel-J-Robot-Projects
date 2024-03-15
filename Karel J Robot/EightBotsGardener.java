@@ -17,17 +17,23 @@ public class EightBotsGardener implements Directions
         a.fivefive();
         EightBotsGardenerBot b = new EightBotsGardenerBot(5, 5, South, infinity, Color.blue);
         b.fivefive();
-        EightBotsGardenerBot d = new EightBotsGardenerBot(5, 6, North, infinity, Color.red);
-        EightBotsGardenerBot e = new EightBotsGardenerBot(5, 6, North, infinity, Color.red);
+        EightBotsGardenerBot d = new EightBotsGardenerBot(5, 6, South, infinity, Color.red);
+        d.fivefive();
+        EightBotsGardenerBot e = new EightBotsGardenerBot(5, 6, East, infinity, Color.red);
+        e.fivefive();
         EightBotsGardenerBot f = new EightBotsGardenerBot(6, 5, North, infinity, Color.red);
-        EightBotsGardenerBot g = new EightBotsGardenerBot(6, 5, North, infinity, Color.red);
-        EightBotsGardenerBot c = new EightBotsGardenerBot(6, 6, North, infinity, Color.blue);
+        f.fivefive();
+        EightBotsGardenerBot g = new EightBotsGardenerBot(6, 5, West, infinity, Color.red);
+        g.fivefive();
+        EightBotsGardenerBot c = new EightBotsGardenerBot(6, 6, East, infinity, Color.blue);
+        c.fivefive();
         EightBotsGardenerBot h = new EightBotsGardenerBot(6, 6, North, infinity, Color.red);
+        h.fivefive();
     }
     static {
     World.reset();
     World.readWorld("Worlds",world + ".kwld"); 
-    World.setDelay(15);
+    World.setDelay(delay);
     World.setVisible(true);
     }
 }
