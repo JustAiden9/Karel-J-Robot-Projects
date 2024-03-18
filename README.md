@@ -22,6 +22,10 @@ The Grade I got is next to the name of the project/Class.
 - TellTime + TellTimeBot + MyBot = 100%
 - Gardener + GardenerBot + MyBot = 100%
 - RobotsSayHello + Robot1 + Robot2 + Robot3 + Robot4 + Robot5 + MyBot = 100%
+- FiveRobotsTT + FiveRobotsTTBot + TellTimeBot + MyBot = 100%
+- EightBotsGardener + EightBotsGardenerBot + MyBot = 100%
+- PlatingAField + BeeperRowLayer + ThreeBeeperRowLayer + TwoBeeperRowLayer + MyBot = 100%
+
 
 # How To Use My Code
 First, you should download ALL the files from this repo (Now in the "Main and World Files" folder!). To do this click on the download ZIP at the top of the page open the Karel J Robot folder that you made at the very start of the class and extract all the files in the zip folder into "Karel J Robot". This assumes that you are on a MacBook, if you are not this should still work, if something is broken or is not working make an issue and I will try to fix it! 
