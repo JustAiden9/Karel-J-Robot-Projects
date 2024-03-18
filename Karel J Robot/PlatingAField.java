@@ -28,8 +28,7 @@ public static void main(String args[])
     
     static {
         World.reset();
-        World.readWorld("Worlds",world + ".kwld"); 
-        World.setBeeperColor(Color.yellow);
+        World.readWorld("Worlds",world + ".kwld");
         World.setDelay(delay);  
         World.setVisible(true);
         try {Thread.sleep(3000); } catch (Exception e){};
