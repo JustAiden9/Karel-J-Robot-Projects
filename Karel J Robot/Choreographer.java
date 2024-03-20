@@ -1,22 +1,12 @@
-
-/**
- * This Choreographer class represents . . .
- *
- * @author  (your name)
- * @version (todays date)
- */
 import kareltherobot.*;
 import java.awt.*;
 public class Choreographer implements Directions
 {
     private static String world = "Gardener";
     private static int delay = 3;
-    public static void main(String args[])
-    {
-        ChoreographerBot a = new ChoreographerBot(5, 5, West, infinity, Color.red);
-        a.fivefive();
-        a.letsGo();
-        
+    public static void main(String args[]) {
+        ChoreographerBot bot = new ChoreographerBot(5, 5, West, infinity, Color.blue);
+        bot.letsGo();
     }
     static {
     World.reset();
