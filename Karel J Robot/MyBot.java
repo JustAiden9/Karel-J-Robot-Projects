@@ -240,4 +240,30 @@ public class MyBot extends UrRobot
             putMove();
         }
     }
+    public void putMove2() {
+        for (int i = 0; i < 2; i++) {
+            putMove();
+        }
+    }
+    public void goHome() 
+    {
+        turnRight();
+        move();
+        turnRight();
+        move3();
+    }
+    public void laneOne()
+    {
+        putMove3();
+        putBeeper();
+        turnRight();
+        move();
+    }
+    public void laneTwo()
+    {
+        turnRight();
+        putMove2();
+        putBeeper();
+        turnAround();
+    }
 }

@@ -12,8 +12,8 @@ class SecondDesignMakerBot extends DesignMakerBot {
         super(street, avenue, direction, beepers);
     }
     void coolEight() {
-        putBeeper();
-        move();
+        putMove();
+        putMove();
         putBeeper();
         turnRight();
     }
