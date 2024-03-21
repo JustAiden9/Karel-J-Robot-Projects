@@ -245,8 +245,15 @@ public class MyBot extends UrRobot
             putMove();
         }
     }
+    public void putRightMove()
+    {
+        putBeeper();
+        turnRight();
+        move();
+    }
     public void goHome() 
     {
+        move3();
         turnRight();
         move();
         turnRight();
@@ -255,9 +262,7 @@ public class MyBot extends UrRobot
     public void laneOne()
     {
         putMove3();
-        putBeeper();
-        turnRight();
-        move();
+        putRightMove();
     }
     public void laneTwo()
     {

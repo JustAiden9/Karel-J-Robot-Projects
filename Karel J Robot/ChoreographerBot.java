@@ -10,16 +10,15 @@ public class ChoreographerBot extends MyBot
         ChoreographerBot bot2 = new ChoreographerBot(5, 6, South, infinity, Color.red);
         ChoreographerBot bot3 = new ChoreographerBot(6, 5, North, infinity, Color.red);
         ChoreographerBot bot4 = new ChoreographerBot(6, 6, East, infinity, Color.blue);
-        fivefive();
-        bot2.fivefive();
-        bot3.fivefive();
-        bot4.fivefive();
+        plantMain();
+        bot2.plantMain();
+        bot3.plantMain();
+        bot4.plantMain();
     }
-    public void fivefive()
+    public void plantMain()
     {
         laneOne();
         laneTwo();
-        move3();
         goHome();
     }
 }
