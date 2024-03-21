@@ -6,7 +6,7 @@ public class Choreographer implements Directions
     private static int delay = 3;
     public static void main(String args[]) {
         ChoreographerBot bot = new ChoreographerBot(5, 5, West, infinity, Color.blue);
-        bot.letsGo();
+        bot.plantMain();
     }
     static {
     World.reset();
