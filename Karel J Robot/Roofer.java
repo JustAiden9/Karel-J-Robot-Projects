@@ -13,7 +13,27 @@ class Roofer extends Worker {
     {
         super(s,a,d,b,c);
     }
-    public void performTask() {
-        
+    public void roofer() 
+    {
+        turnRight();
+        move();
+        turnLeft();
+        move4();
+        turnRight();
+        movePut();
+        turnLeft();
+        roofREPR();
+        turnAround();
+        move5();
+        turnRight();
+        move5();
+        turnRight();
+        putBeeper();
+        roofREPL();
+        turnAround();
+        move9();
+        turnLeft();
+        move3();
+        turnLeft();
     }
 }

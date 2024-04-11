@@ -12,7 +12,22 @@ class Carpenter extends Worker {
     {
         super(s,a,d,b,c);
     }
-    public void performTask() {
-        
+    public void carpenter() 
+    {
+        turnRight();
+        move2();
+        turnLeft();
+        putMove5();
+        turnAround();
+        move5();
+        turnRight();
+        move8();
+        turnRight();
+        putMove5();
+        turnAround();
+        move5();
+        turnLeft();
+        move6();
+        turnLeft();
     }
 }
