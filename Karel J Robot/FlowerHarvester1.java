@@ -13,7 +13,7 @@ public class FlowerHarvester1 extends FlowerHarvestBot
     private static int delay = 3;
     public static void main(String[] args) 
     {
-        FlowerHarvester1 bot = new FlowerHarvester1(1, 1, East, 0);
+        FlowerHarvester1 bot = new FlowerHarvester1(1, 1, East, 200);
         bot.harvestFlowers();
         bot.turnOff();
 }

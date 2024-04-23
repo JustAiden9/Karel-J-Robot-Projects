@@ -39,6 +39,8 @@ public class FlowerHarvestBot extends Robot
         }
     }
     
+    
+    
     //EXTRA CODE
     public void leftRow()
     {
@@ -59,9 +61,9 @@ public class FlowerHarvestBot extends Robot
     }
     public void turnRight()
     {
-        turnLeft();
-        turnLeft();
-        turnLeft();
+        for (int i = 0; i < 3; i++) {
+            turnLeft();
+        }
     }
     public void leftUP()
     {
