@@ -6,64 +6,90 @@
  * @version (todays date)
  */
 import kareltherobot.*;
-
 public class FlowerPlanterBot extends Robot {
+
     public FlowerPlanterBot(int s, int a, Direction d, int b) {
-        super(s, a, d, b);
+        super(s,a,d,b);
     }
-
-    // MAIN START METHOD
-    public void harvestFlowers() {
+    
+     public void harvestFlowers() 
+    {
         repeatROWS();
+        beeperTestScript();
     }
-
-    // METHOD TO TEST FOR BEEPERS AND PLANT IF NEEDED
+    
+    //METHOD TO TEST FOR BEEPERS
     public void beeperTestScript() {
-        if (!nextToABeeper()) {  // Check if no beeper is present
-            putBeeper();         // Plant a beeper if not present
+    int cornersChecked = 0;
+    while (cornersChecked < 14) {
+        if (nextToABeeper()) {
+            move();
+        } else {
+            putBeeper();
+            move();
         }
-        move();                  // Move to the next corner
+        cornersChecked++;
     }
+    
+    // Check if the robot is not on the last corner of the row
+    if (!nextToABeeper()) {
+        putBeeper();
+    }
+}
 
-    // EXTRA CODE
-    public void leftRow() {
-        for (int i = 0; i < 5; i++) {
-            beeperTestScript();
-        }
+
+    
+    
+    
+    //ROW CODE
+    public void leftRow()
+    {
+        beeperTestScript();
         leftUP();
     }
-
-    public void rightRow() {
-        for (int i = 0; i < 5; i++) {
-            beeperTestScript();
-        }
+    public void rightRow()
+    {
+        beeperTestScript();
         rightUP();
     }
-
-    public void repeatROWS() {
-        for (int i = 0; i < 2; i++) {  // Repeat for two rows
-            leftRow();
-            rightRow();
+    public void repeatROWS()
+    {
+        leftRow();
+        rightRow();
+        leftRow();
+        rightRow();
+    }
+    
+    //EXTRA CODE
+    public void placeFive()
+    {
+        leftUP();
+        for (int i = 0; i < 5; i++) {
+            putMove();
         }
-        leftRow();  // Last row
     }
-
-    public void leftUP() {
-        turnLeft();
-        move();
-        turnLeft();
-    }
-
-    public void rightUP() {
-        turnRight();
-        move();
-        turnRight();
-    }
-
-    public void turnRight() {
+    public void turnRight()
+    {
         for (int i = 0; i < 3; i++) {
             turnLeft();
         }
+    }
+    public void leftUP()
+    {
+        turnLeft();
+        move();
+        turnLeft();
+    }
+    public void rightUP()
+    {
+        turnRight();
+        move();
+        turnRight();
+    }
+    public void putMove()
+    {
+        putBeeper();
+        move();
     }
 }
 

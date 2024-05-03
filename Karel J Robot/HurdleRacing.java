@@ -1,20 +1,23 @@
+
 /**
-   ;p - aiden
-   
-  */
+ * This HurdleRacing class represents . . .
+ *
+ * @author  (your name)
+ * @version (todays date)
+ */
 import kareltherobot.*;
-public class FlowerHarvester1 extends FlowerPlanterBot 
+public class HurdleRacing extends HurdleRacingBot 
 {
-    public FlowerHarvester1(int street, int avenue, Direction direction, int beepers) 
+    public HurdleRacing(int street, int avenue, Direction direction, int beepers) 
     {
         super(street, avenue, direction, beepers);
 }
-    private static String world = "FlowerHarvest2";
+    private static String world = "Hurdler1";
     private static int delay = 3;
     public static void main(String[] args) 
     {
-        FlowerHarvester1 bot = new FlowerHarvester1(1, 1, East, 200);
-        bot.harvestFlowers();
+        HurdleRacing bot = new HurdleRacing(1, 1, East, 200);
+        bot.hurdleRace();
         bot.turnOff();
 }
 static 

@@ -16,32 +16,23 @@ public class FlowerHarvestBot extends Robot
     {
         repeatROWS();
         beeperTestScript();
-        placeFive();
     }
     
     //METHOD TO TEST FOR BEEPERS
-    public void beeperTestScript()
-    {
-        int beepersCollected = 0;
-        while (frontIsClear()) {
-        while (nextToABeeper()) {
+    public void beeperTestScript() {
+    int beepersCollected = 0;
+    for (int i = 1; i <= 14; i++) {
+        if (nextToABeeper()) {
             pickBeeper();
             beepersCollected++;
         }
-        if (beepersCollected == 5) {
-            break; 
-        }
         move();
-        }
-        while (nextToABeeper()) {
-        pickBeeper();
-        beepersCollected++;
-        }
     }
+}
     
     
     
-    //EXTRA CODE
+    //ROW CODE
     public void leftRow()
     {
         beeperTestScript();
@@ -52,6 +43,15 @@ public class FlowerHarvestBot extends Robot
         beeperTestScript();
         rightUP();
     }
+    public void repeatROWS()
+    {
+        leftRow();
+        rightRow();
+        leftRow();
+        rightRow();
+    }
+    
+    //EXTRA CODE
     public void placeFive()
     {
         leftUP();
@@ -81,13 +81,6 @@ public class FlowerHarvestBot extends Robot
     {
         putBeeper();
         move();
-    }
-    public void repeatROWS()
-    {
-        leftRow();
-        rightRow();
-        leftRow();
-        rightRow();
     }
 }
 
