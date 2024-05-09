@@ -20,21 +20,21 @@ public class FlowerPlanterBot extends Robot {
     
     //METHOD TO TEST FOR BEEPERS
     public void beeperTestScript() {
-    int cornersChecked = 0;
-    while (cornersChecked < 14) {
-        if (nextToABeeper()) {
+        int cornersChecked = 0;
+        while (cornersChecked < 14) {
+            if (nextToABeeper()) {
             move();
-        } else {
+            } else {
             putBeeper();
             move();
         }
         cornersChecked++;
     }
     
-    // Check if the robot is not on the last corner of the row
+    
     if (!nextToABeeper()) {
-        putBeeper();
-    }
+            putBeeper();
+        }
 }
 
 

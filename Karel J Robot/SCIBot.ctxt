@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SCIBot
+comment1.params=
+comment1.target=void\ exploreWorld()
+comment2.params=
+comment2.target=void\ moveIntoRoom()
+comment3.params=
+comment3.target=void\ exitRoom()
+comment4.params=
+comment4.target=boolean\ isSmallRoom()
+comment5.params=
+comment5.target=void\ turnRight()
+numComments=6
