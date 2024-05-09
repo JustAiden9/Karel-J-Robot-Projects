@@ -1,10 +1,4 @@
 
-/**
- * This ACIBot class represents . . .
- *
- * @author  (your name)
- * @version (todays date)
- */
 import kareltherobot.*;
 
 public class ACIBot extends Robot {

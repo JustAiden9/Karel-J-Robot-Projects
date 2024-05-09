@@ -1,19 +1,25 @@
 
+/**
+ * This Math1 class represents . . .
+ *
+ * @author  (your name)
+ * @version (todays date)
+ */
 import kareltherobot.*;
-public class MazeWalker extends MazeWalkerBot
+public class Math1 extends AddBot
 {
 
-    public MazeWalker(int street, int avenue, Direction direction, int beepers) 
+    public Math1(int street, int avenue, Direction direction, int beepers) 
     {
         super(street, avenue, direction, beepers);
 }
-    private static String world = "maze";
+    private static String world = "Math1";
     private static int delay = 3;
     public static void main(String[] args) 
     {
-        MazeWalkerBot robot1 = new MazeWalkerBot(1, 1, North, 100);
-        robot1.mazeWalker();
-        robot1.turnOff();
+        AddBot robot1 = new AddBot(1, 1, North, 100);
+        robot1.addColumn();
+        robot1.findColumnSum();
 }
 static 
         {

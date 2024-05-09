@@ -1,10 +1,4 @@
 
-/**
- * This ACI class represents . . .
- *
- * @author  (your name)
- * @version (todays date)
- */
 import kareltherobot.*;
 public class ACI extends ACIBot
 {
@@ -13,7 +7,7 @@ public class ACI extends ACIBot
     {
         super(street, avenue, direction, beepers);
 }
-    private static String world = "LargeCarpet0"; //LargeCarpet0, SmallCarpet0, ExtraLargeCarpet0
+    private static String world = "ExtraLargeCarpet0"; //LargeCarpet0, SmallCarpet0, ExtraLargeCarpet0
     private static int delay = 3;
     public static void main(String[] args) 
     {

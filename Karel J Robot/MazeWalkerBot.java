@@ -1,10 +1,4 @@
 
-/**
- * This MazeWalkerBot class represents . . .
- *
- * @author  (your name)
- * @version (todays date)
- */
 import kareltherobot.*;
 
 public class MazeWalkerBot extends Robot {

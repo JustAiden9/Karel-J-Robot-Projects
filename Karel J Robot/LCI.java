@@ -1,10 +1,4 @@
 
-/**
- * This LCI class represents . . .
- *
- * @author  (your name)
- * @version (todays date)
- */
 import kareltherobot.*;
 public class LCI extends LCIBot
 {
