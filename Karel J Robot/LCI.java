@@ -7,7 +7,7 @@ public class LCI extends LCIBot
     {
         super(street, avenue, direction, beepers);
 }
-    private static String world = "LargeCarpet0";
+    private static String world = "LargeCarpet1";
     private static int delay = 3;
     public static void main(String[] args) 
     {
